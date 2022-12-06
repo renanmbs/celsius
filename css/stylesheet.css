@@ -13,7 +13,7 @@ h1{
 
 #box{
     height: 30rem;
-    width: 25rem;
+    width: 20rem;
     background: rgba( 184, 134, 11, 0.9 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );

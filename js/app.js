@@ -58,7 +58,7 @@ function calculate_fah(){
 //Function to change the background
 function change_background_celsius(weather){
 
-    if(weather >= 32){
+    if(weather >= 27){
         document.getElementById("hot").style.visibility = "visible";
         document.getElementById("cold").style.visibility = "hidden";
         document.getElementById("header_color").style.color = "white";
@@ -74,7 +74,7 @@ function change_background_celsius(weather){
 //Function to change the background
 function change_background_fahr(weather){
 
-    if(weather >= 90){
+    if(weather >= 80){
         document.getElementById("hot").style.visibility = "visible";
         document.getElementById("cold").style.visibility = "hidden";
         document.getElementById("header_color").style.color = "white";
