@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Converter</title>
+    <link href="./css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+    <video autoplay muted loop id="cold">
+        <source src="./img/cold.mp4" type="video/mp4">
+    </video>
+
+    <video autoplay muted loop id="hot">
+        <source src="./img/hot.mp4" type="video/mp4">
+    </video>
+    
+    <header>
+        <h1 id="header_color">Weather Converter</h1>
+    </header>
+
+    <article id="container">
+
+        <section id="box">
+
+            <form>
+                <h3>Choose Your Option</h3>
+
+                <article id="choice">
+
+                    <section id="CtF">
+                        <label for="C">Celsius to Fahrenheit</label><br>
+                        <input type="radio" name="choice" id="C">
+                    </section>
+            
+                    <section id="FtC">
+                        <label for="F">Fahrenheit to Celsius</label><br>
+                        <input type="radio" name="choice" id="F">
+                    </section>
+
+                </article>
+    
+                <section id="num">
+
+                    <article id="getCel">
+                        <h3>Input the Weather</h3>
+                        <label for="Cels">&#x2103;</label><br>
+                        <input type="number" id="Cels" name="Cels">
+                    </article>
+
+                    <article id="getFah">
+                        <h3>Input the Weather</h3>
+                        <label for="Fah">&#x2109;</label><br>
+                        <input type="number" id="Fah" name="Fah">
+                    </article>
+
+                    <section id="results">
+                        <h3>Result</h3>
+                        <p id="Result"></p>
+                    </section>
+                </section>
+                
+            </form>
+
+        </section>
+
+    </article>
+    
+</body>
+<script src="./js/app.js"></script>
+</html>
