@@ -20,14 +20,14 @@ function showArea(e){
         if(cel_picked.checked){
             document.getElementById("getCel").style.display = "block";
             document.getElementById("getFah").style.display = "none";
-            event1.addEventListener('focusout', calculate_cel); //On the picking background color
+            event1.addEventListener('input', calculate_cel); //On the picking background color
         
         }
 
         else if(fah_picked){
             document.getElementById("getFah").style.display = "block";
             document.getElementById("getCel").style.display = "none";
-            event2.addEventListener('focusout', calculate_fah);
+            event2.addEventListener('input', calculate_fah);
            
         }
     }
